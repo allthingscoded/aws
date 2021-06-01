@@ -2,9 +2,7 @@
 
 AWS Serverless Lambda function that sends log data from CloudWatch Logs and S3.
 
-![Fig : Serverless Cloudwatch Logs To S3 Exporter](images/serverless-cloudwatch-logs-exporter.png)
 
-## Follow this article in [Youtube](https://www.youtube.com/watch?v=JS0bDErJ9Rw&list=PLxzKY3wu0_FKok5gI1v4g4S-g-PLaW9YD&index=31&t=0s)
 
 1. ## Pre-Requisities
 
@@ -110,9 +108,6 @@ This Lambda function has the following limitation:
 
 - Currently If you want to export all log groups, you have to list them all manually. _This is by design, as the export tasks are limited to `1 PENDING` task at any time by AWS, and Lambda have limited time to push all the logs._
 
-## 👋 Buy me a coffee
-
-Buy me a coffee ☕ through [Paypal](https://paypal.me/valaxy), _or_ You can reach out to get more details through [here](https://youtube.com/c/valaxytechnologies/about).
 
 ### 📚 References
 
@@ -120,6 +115,5 @@ Buy me a coffee ☕ through [Paypal](https://paypal.me/valaxy), _or_ You can rea
 
 [2] - [CloudWatch - Schedule Expressions for Rules](http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html#RateExpressions)
 
-### ℹ️ Metadata
-
-**Level**: 200
+[3] - Follow this article in [Youtube](https://www.youtube.com/watch?v=JS0bDErJ9Rw&list=PLxzKY3wu0_FKok5gI1v4g4S-g-PLaW9YD&index=31&t=0s) 
+      Owner of code - Valaxy
